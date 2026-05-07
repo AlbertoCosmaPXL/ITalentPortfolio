@@ -12,6 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
+    <script>
+      // Restore the original path after a GitHub Pages 404 redirect.
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var path = params.get('p');
+        if (path) {
+          var url = decodeURIComponent(path);
+          window.history.replaceState(null, '', url);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>

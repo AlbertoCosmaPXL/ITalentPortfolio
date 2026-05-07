@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import ProjectDetail from './views/ProjectDetail.vue'
 import Seminars from './views/Seminars.vue'
@@ -6,7 +6,7 @@ import Reflection from './views/Reflection.vue'
 import Voorstelling from './views/Voorstelling.vue'
 
 export const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: [
     { path: '/', component: Home },
     { path: '/voorstelling', component: Voorstelling },
