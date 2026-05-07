@@ -5,5 +5,5 @@ import vue from '@vitejs/plugin-vue'
 // If you deploy to <user>.github.io (a user/organization site), use '/'.
 export default defineConfig({
   plugins: [vue()],
-  base: '/',
+  base: 'I-Talent/Portofolio/',
 })
