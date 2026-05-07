@@ -6,7 +6,7 @@ import Reflection from './views/Reflection.vue'
 import Voorstelling from './views/Voorstelling.vue'
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', component: Home },
     { path: '/voorstelling', component: Voorstelling },
